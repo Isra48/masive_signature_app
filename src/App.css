@@ -1,0 +1,35 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.contenedor_firma{
+  text-align: left;
+  
+
+}
+.shadow{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin: 2em;
+  padding: 2.5em;
+
+
+
+}
+
+.fade-in {
+  opacity: 0; /* Inicialmente oculto */
+  animation: fadeIn 5s ease-in forwards;
+  
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

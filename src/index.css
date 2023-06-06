@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@600;800&family=Montserrat:wght@200;300;500&display=swap');
+
+
+
+
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 2.5em;
+  line-height: 1.1;
+  color: #051039 !important;
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 800;
+
+}
+.contenedor_principal{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.contenedor_btns{
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+  gap: 1em;
+  margin-top: 2em;
+  padding:0em 5em;
+}
+
+.contenedor_file{
+  display: flex;
+  justify-content: center;
+  border: dashed 3px #002297;
+  padding: 1em;
+  border-radius: 8px;
+
+}
+
+.button-19 {
+  appearance: button;
+  background-color: red;
+  border: solid transparent;
+  cursor: pointer;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+    border-radius: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 7px 10px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+
+}
+
+.button-19:after {
+  background-clip: padding-box;
+  background-color: #002297;
+  border: solid transparent;
+border-radius: 8px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-19:main,
+.button-19:focus {
+  user-select: auto;
+}
+
+.button-19:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.button-19:disabled {
+  cursor: auto;
+}
