@@ -5,6 +5,19 @@
   text-align: center;
 }
 
+.contenedor_archivo{
+  
+  margin-bottom: 2em;
+
+  width: 50%;
+}
+
+.link_archivo{
+  text-decoration:none;
+  
+
+}
+
 .contenedor_firma{
   text-align: left;
   

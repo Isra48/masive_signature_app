@@ -67,6 +67,7 @@ const FirmaCorreo = () => {
         <div className='contenedor_btns'>
         <button className='button-19' onClick={generateSignatures}>Generar Firmas</button>
       <button className='button-19' onClick={downloadAllSignatures}>Descargar Todas las Firmas</button>
+      <a  className='button-19' href="https://drive.google.com/drive/folders/1nRTzxtH80r22iVCk9X_x0Ci3JkQvFim6?usp=sharing" Target="_blank">Template Excel</a>
       
         </div>
       <div className='contenedor_firma'>
